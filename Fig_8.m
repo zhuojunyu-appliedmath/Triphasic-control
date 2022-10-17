@@ -7,7 +7,7 @@
 clear; clc;
 
 d2 = 1; d3 = 1;
-theta_I = -25;  %intrinsic release
+theta_I = -25;  %synaptic release
 tF = 100; dt = 0.01; tspan = 0:dt:tF;
 
 %% d1 = 1;
