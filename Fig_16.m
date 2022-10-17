@@ -1,4 +1,6 @@
-clear;
+% Fig. 16: lTRC for piecewise linear Aplysia model 
+
+clear; clc;
 
 %% Parameters
 
