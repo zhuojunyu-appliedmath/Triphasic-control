@@ -15,3 +15,15 @@ Fig. 6 shows a solution of competitive threshold-linear model. To generate figur
 Fig. 7 shows phase plane for cell 1 in intrinsic release, with several values of d1. To generate figure, change the parameter values "G = struct('NaP', 6.8, 'L', 3, 'I', 0.4, 'E', 0.1); Theta = struct('h', -40, 'mp', -37); Sigma = struct('h', 6, 'mp', -6);" in relaxation.m, and then run Fig_7.m
 
 Fig. 8 shows phase plane for cell 1 in synaptic release, with several values of d1. To generate figure, change the parameter values "G = struct('NaP', 6.8, 'L', 3, 'I', 0.4, 'E', 0.1); Theta = struct('h', -40, 'mp', -37); Sigma = struct('h', 6, 'mp', -6);" in relaxation.m, and then run Fig_8.m
+
+Fig. 9 shows lTRC for (a) intrinsic release and (b) synaptic release. To generate figure, change the parameter values "G = struct('NaP', 6.8, 'L', 3, 'I', 0.4, 'E', 0.1); Theta = struct('h', -40, 'mp', -37); Sigma = struct('h', 6, 'mp', -6);" in relaxation.m, and then run Fig_9a and Fig_9b.
+
+Fig. 11 shows lTRC for synaptic escape. To generate figure, change the parameter values "G = struct('NaP', 6.8, 'L', 3, 'I', 0.4, 'E', 0.1); Theta = struct('h', -40, 'mp', -37); Sigma = struct('h', 5, 'mp', -6);" in relaxation.m, and change the event functions to be "value=P(3)-theta_imag". Then run Fig_11.m
+
+Fig. 12 shows phase plane for three cells in synaptic escape, with several values of d1. To generate figure, change the parameter values "G = struct('NaP', 6.8, 'L', 3, 'I', 0.4, 'E', 0.1); Theta = struct('h', -40, 'mp', -37); Sigma = struct('h', 5, 'mp', -6);" in relaxation.m, and then run Fig_12.m
+
+Fig. 14 shows a double-period solution of intrinsic-escape system.  To generate figure, change the parameter values "G = struct('NaP', 6.8, 'L', 3, 'I', 0.24, 'E', 0.14); Theta = struct('h', -39, 'mp', -37); Sigma = struct('h', 9, 'mp', -6);", and then run Fig_14.m
+
+Fig. 15 shows solutions of piecewise linear Aplysia model with several values of a1. To generate figure, run Fig_15.m
+
+Fig. 16 shows lTRC for heteroclinic cycling model. To generate figure, run Fig_16.m
