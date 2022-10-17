@@ -1,1 +1,1 @@
-# Triphasic_control
+This repository holds code used to generate the figures and tables in our paper "Control in triphasic rhythmic neural systems: a comparative mechanistic analysis via infinitesimal local timing response curves". Figures 1-4, 7-9, 11, 12, and 14 are for relaxation-oscillator model. Figures 5, 15, and 16 are for the heteroclinic cycling model. Figures 6, 17, and 18 are for the competitive threshold-linear model. The rest figures are not generated via simulation.
